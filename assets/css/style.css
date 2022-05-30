@@ -1,0 +1,62 @@
+* {
+	margin: 20px;
+}
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	background-color: #d03ec6;
+}
+
+.container-fluid {
+	background-color: #fff;
+	border-radius: 20px;
+	border: #2cd561 solid 12px;
+}
+
+.highScore {
+	display: flex;
+	justify-content: center;
+	color: #1e1e1e;
+	font-size: 20px;
+}
+
+.highScore:hover {
+	text-decoration: underline;
+}
+
+.mainstyle p {
+	padding: 5px;
+	font-size: large;
+	background: #fff;
+	color: #1e1e1e;
+	font-weight: bolder;
+	border-radius: 7px;
+	border: #1e1e1e solid 2px;
+}
+
+.mainstyle p:hover {
+	background-color: #77716c88;
+}
+
+.timeleft {
+	display: flex;
+	justify-content: center;
+	color: #1e1e1e;
+	font-size: 20px;
+}
+
+button {
+	display: inline-block;
+	border: none;
+	padding: 1rem 2rem;
+	margin: 0;
+	text-decoration: none;
+	background: #0069ed;
+	color: #ffffff;
+	font-size: 1rem;
+	line-height: 1;
+	cursor: pointer;
+	text-align: center;
+	transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
